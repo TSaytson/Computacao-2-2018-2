@@ -1,0 +1,16 @@
+
+#ifndef	_AULA0701_
+#define	_AULA0701_	"@(#)aula0701.h"
+
+#define	NUMERO_LINHAS_MATRIZ_A	5
+#define	NUMERO_COLUNAS_MATRIZ_A	3
+#define	NUMERO_LINHAS_MATRIZ_B	3
+#define	NUMERO_COLUNAS_MATRIZ_B	4
+
+typedef enum {ok, matrizInvalida} tipoErros;
+
+void
+MultiplicarMatrizes(float [NUMERO_LINHAS_MATRIZ_A][NUMERO_COLUNAS_MATRIZ_A], float [NUMERO_LINHAS_MATRIZ_B][NUMERO_COLUNAS_MATRIZ_B], float [NUMERO_LINHAS_MATRIZ_A][NUMERO_COLUNAS_MATRIZ_B]);
+
+#endif
+
