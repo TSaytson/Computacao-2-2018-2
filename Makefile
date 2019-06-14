@@ -1,13 +1,3 @@
-#Universidade Federal do Rio de Janeiro
-#Escola Politecnica
-#Departamento de Eletronica e de Computacao
-#EEL270 - Computacao II - Turma 2018/2
-#Prof. Marcelo Luiz Drumond Lanza
-#Autor: Thiago Saytson dos Santos Theonilo
-#
-#$Author: thiago.theonilo $
-#$Date: 2018/11/12 19:35:22 $
-#$log$
  
 CC = gcc
 LD = gcc
@@ -243,4 +233,3 @@ clean:
 	rm -f *.o $(ALL)
 
 
-#/* $RCSfile: Makefile,v $ */

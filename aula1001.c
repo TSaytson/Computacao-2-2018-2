@@ -1,16 +1,5 @@
-/*Universidade Federal do Rio de Janeiro
- *Escola Politecnica
- *Departamento de Eletronica e de Computacao
- *EEL270 - Computacao II - Turma 2018/2
- *Prof. Marcelo Luiz Drumond Lanza
- *Autor: Thiago Saytson dos Santos Theonilo
 
- *$Author: thiago.theonilo $
- *$Date: 2018/11/12 23:00:22 $
- *$log$
- */ 
-
-#define _XOPEN_SOURCE							600
+#define _XOPEN_SOURCE			600
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -18,17 +7,17 @@
 #include <errno.h>
 
 
-#define COMPRIMENTO_MAXIMO_STRING		1024
+#define COMPRIMENTO_MAXIMO_STRING	1024
 
-#define NUMERO_ARGUMENTOS					2
-#define NUMERO_ARGUMENTOS_INVALIDO		1
+#define NUMERO_ARGUMENTOS		2
+#define NUMERO_ARGUMENTOS_INVALIDO	1
 
-#define ERRO_ABRINDO_ARQUIVO				2
-#define ERRO_ABRINDO_ARQUIVO_TEMP		3
-#define ERRO_LENDO_ARQUIVO					4
+#define ERRO_ABRINDO_ARQUIVO		2
+#define ERRO_ABRINDO_ARQUIVO_TEMP	3
+#define ERRO_LENDO_ARQUIVO		4
 
 #define LIMITE_NOME_ARQUIVO_EXCEDIDO	5
-#define OK										0
+#define OK				0
 
 /* testar com xxd <nomedoarquivo> */
 
@@ -113,5 +102,3 @@ main(int argc, char* argv[])
 
 }
 
-
-/* $RCSfile: aula1001.c,v $ */
